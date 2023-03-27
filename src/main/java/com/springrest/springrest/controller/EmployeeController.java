@@ -38,7 +38,7 @@ public class EmployeeController {
   if(employeeObject == null){
     throw new RuntimeException("Employee with id" +id+"is not found");
   }
-  return  employeeObject;//emplo
+  return  employeeObject;//employee Object
   }
   
   @DeleteMapping("/employee/{id}")
